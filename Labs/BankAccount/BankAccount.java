@@ -1,3 +1,5 @@
+package Labs.BankAccount;
+
 public class BankAccount {
     private String name;
     private double checking;
