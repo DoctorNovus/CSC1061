@@ -10,7 +10,7 @@ public class Number {
     }
 
     public String toString() {
-        /* Type your code here */
+        return String.format("The value is %s", num);
     }
 
     public int getNum() {
