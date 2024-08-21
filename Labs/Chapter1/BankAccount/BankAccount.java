@@ -1,4 +1,4 @@
-package Labs.BankAccount;
+package Labs.Chapter1.BankAccount;
 
 public class BankAccount {
     private String name;

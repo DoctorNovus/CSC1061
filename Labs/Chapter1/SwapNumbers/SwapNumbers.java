@@ -1,8 +1,8 @@
-package Labs.SwapNumbers;
+package Labs.Chapter1.SwapNumbers;
 
 import java.util.Scanner;
 
-import Labs.Number.Number;
+import Labs.Chapter1.Number.Number;
 
 public class SwapNumbers {
 
