@@ -1,8 +1,8 @@
-package Labs.Chapter1.Course;
+package Labs.Chapter1.StudentRoster;
 
 import java.util.ArrayList;
 
-import Labs.Chapter1.Course.Student;
+import Labs.Chapter1.StudentRoster.Student;
 
 // Class representing a student
 public class Course {
