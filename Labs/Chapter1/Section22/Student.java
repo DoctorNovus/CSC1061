@@ -1,4 +1,4 @@
-package Labs.Chapter1.Section21;
+package Labs.Chapter1.Section22;
 
 public class Student {
     private String first;
