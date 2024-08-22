@@ -2,6 +2,8 @@ package Labs.Chapter1.Section21;
 
 import java.util.ArrayList;
 
+import Labs.Chapter1.Section21.Student;
+
 public class Course {
 
 	private ArrayList<Student> roster; // Collection of Student objects
@@ -12,7 +14,14 @@ public class Course {
    
    // Return an ArrayList of all Students with a GPA of at least 3.5
 	public ArrayList<Student> getDeansList() {
-	   /* Type your code here */
+	   ArrayList<Student> studentArr = new ArrayList<Student>();
+
+      for (Student student : roster) {
+         if(student.getGpa() >= 3.5)
+            studentArr.add(student);
+      }
+
+      return studentArr;
 	}
 
 	public void addStudent(Student s) {

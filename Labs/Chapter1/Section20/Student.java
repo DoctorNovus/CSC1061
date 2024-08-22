@@ -1,9 +1,9 @@
 package Labs.Chapter1.Section20;
 
 public class Student {
-    String first;
-    String last;
-    double gpa;
+    private String first;
+    private String last;
+    private double gpa;
 
     public Student(String first, String last, double gpa){
         this.first = first;
