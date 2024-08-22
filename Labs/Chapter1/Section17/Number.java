@@ -1,4 +1,4 @@
-package Labs.Chapter1.Number;
+package Labs.Chapter1.Section17;
 
 import java.util.Scanner;
 
