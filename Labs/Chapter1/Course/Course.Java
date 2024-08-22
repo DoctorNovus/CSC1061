@@ -1,4 +1,8 @@
+package Labs.Chapter1.Course;
+
 import java.util.ArrayList;
+
+import Labs.Chapter1.Course.Student;
 
 // Class representing a student
 public class Course {
@@ -10,7 +14,11 @@ public class Course {
 
    // Output each student in the course roster, and then the total size of the course
 	public void printRoster() {
-		/* Type your code here */		
+		for (Student student : roster) {
+         System.out.println(student);
+      }
+
+      System.out.println("Students: " + roster.size());
 	}
 
 	public void addStudent(Student s) {
