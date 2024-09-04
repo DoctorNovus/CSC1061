@@ -6,6 +6,10 @@ import java.util.ArrayList;
  * @author Daniel Wedding
  */
 public class Main {
+    
+    /** 
+     * @param args
+     */
     public static void main(String[] args) {
         ArrayList<Person> students = new ArrayList<Person>();
 
@@ -19,6 +23,8 @@ public class Main {
         students.forEach((person) -> {
             studentNames.add(person.getName());
             studentClassCounts.add(person.getClassCount());
+
+            System.out.println(person);
         });
     }
 }

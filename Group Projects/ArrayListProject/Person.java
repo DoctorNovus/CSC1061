@@ -6,13 +6,18 @@ public class Person {
     private String careerDescription;
     private int desiredSalary;
 
-    public Person(String name, int classCount, String careerDescription, int desiredSalary){
+    public Person(String name, int classCount, String careerDescription, int desiredSalary) {
         this.name = name;
         this.classCount = classCount;
         this.careerDescription = careerDescription;
         this.desiredSalary = desiredSalary;
     }
 
+    public String toString() {
+        return String.format("%s is in %s classes, focusing to become a %s with the desired salary of $%s.", name,
+                classCount, careerDescription, desiredSalary);
+    }
+    
     public String getName() {
         return this.name;
     }
